@@ -3,6 +3,11 @@ from typing import List
 def whitespace_tokenize(text: str) -> List[str]:
     if text is None:
         raise ValueError("sentence cannot be None")
+    
+    # Check for empty or whitespace-only strings
+    if not text.strip():
+        raise ValueError("sentence cannot be empty or whitespace-only")
+    
     # Basic whitespace tokenizer for baseline. No punctuation splitting.
     tokens = text.split()
     if any(t == "" for t in tokens):

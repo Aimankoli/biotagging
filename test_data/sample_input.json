@@ -1,0 +1,16 @@
+[
+  {
+    "sentence_id": 1,
+    "sentence": "John Smith works at Google",
+    "tags": ["PER", "PER", "O", "O", "ORG"]
+  },
+  {
+    "sentence_id": 2,
+    "sentence": ["Apple", "is", "in", "California"],
+    "tags": ["ORG", "O", "O", "LOC"]
+  },
+  {
+    "sentence": "Microsoft hired Sarah",
+    "tags": ["ORG", "O", "PER"]
+  }
+]

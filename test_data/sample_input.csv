@@ -1,0 +1,15 @@
+sentence_id,word,tag
+0,John,PER
+0,works,O
+0,at,O
+0,IBM,ORG
+1,Apple,ORG
+1,Inc,ORG
+1,is,O
+1,located,O
+1,in,O
+1,Cupertino,LOC
+2,Microsoft,ORG
+2,hired,O
+2,Sarah,PER
+2,Johnson,PER

@@ -1,0 +1,50 @@
+[
+  {
+    "sentence_id": 1,
+    "sentence": "John Smith works at Google",
+    "tokens": [
+      "John",
+      "Smith",
+      "works",
+      "at",
+      "Google"
+    ],
+    "tags": [
+      "B-PER",
+      "B-PER",
+      "O",
+      "O",
+      "B-ORG"
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "sentence": "Apple is in California",
+    "tokens": [
+      "Apple",
+      "is",
+      "in",
+      "California"
+    ],
+    "tags": [
+      "B-ORG",
+      "O",
+      "O",
+      "B-LOC"
+    ]
+  },
+  {
+    "sentence_id": null,
+    "sentence": "Microsoft hired Sarah",
+    "tokens": [
+      "Microsoft",
+      "hired",
+      "Sarah"
+    ],
+    "tags": [
+      "B-ORG",
+      "O",
+      "B-PER"
+    ]
+  }
+]

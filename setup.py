@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='biotagging',
     version='0.1.0',
-    author='Saroop & Aiman',
+    author='Saroop & Aiman & Meet',
     author_email='aimankoli90@gmail.com',
     description='A package for tagging data for NER (BIO format)',
     long_description=open('README.md').read(),
@@ -19,5 +19,6 @@ setup(
     install_requires=[
         "pandas",
         "numpy",
+        "pydantic",
     ],
 )
