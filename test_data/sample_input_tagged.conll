@@ -1,0 +1,20 @@
+# Sentence 0
+John	B-PER
+works	O
+at	O
+IBM	B-ORG
+
+# Sentence 1
+Apple	B-ORG
+Inc	B-ORG
+is	O
+located	O
+in	O
+Cupertino	B-LOC
+
+# Sentence 2
+Microsoft	B-ORG
+hired	O
+Sarah	B-PER
+Johnson	B-PER
+

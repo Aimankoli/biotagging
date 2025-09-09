@@ -1,0 +1,10 @@
+[
+  {
+    "sentence": "Good sentence",
+    "tags": ["O", "O"]
+  },
+  {
+    "sentence": "",
+    "tags": []
+  }
+]
